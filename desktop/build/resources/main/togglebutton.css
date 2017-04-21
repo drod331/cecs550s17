@@ -1,0 +1,38 @@
+.toggle-button {
+  -fx-background-color: transparent;
+  -fx-border-width: 0 0 6 0;
+  -fx-border-color: #FFFFFF;
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: center;
+  -fx-text-fill: #FFFFFF;
+}
+
+.toggle-button:selected {
+  -fx-background-color: #555555;
+}
+
+.toggle-button:hover {
+  -fx-background-image: url("b2.png");
+  -fx-background-color: transparent;
+  -fx-text-fill: #404040;
+}
+
+.root{
+  -fx-background-image: url("gradbg.png");
+  
+}
+
+.label{
+  -fx-text-fill: #FFFFFF;
+}
+
+.text{
+  -fx-text-fill: #FFFFFF;
+}
+
+#ericastext{
+  -fx-fill: #FFFFFF;
+  -fx-font-family: Verdana;
+  -fx-font-size: 28px;
+  
+}

@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="com.cecs.cecs550.horoscopeandroid.MainActivity$PlaceholderFragment">
+
+    <TextView
+            android:id="@+id/section_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_below="@+id/section_label"
+            android:layout_centerHorizontal="true" android:layout_marginTop="39dp" android:id="@+id/spinner"/>
+    <Button
+            android:text="Get Horoscope"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_below="@+id/spinner"
+            android:layout_centerHorizontal="true" android:layout_marginTop="43dp" android:id="@+id/button"
+    />
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_centerVertical="true"
+            android:layout_alignParentStart="true">
+
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView
+                    android:text="Strengths:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView6"/>
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:orientation="vertical">
+                <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textView7"/>
+            </TableRow>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView
+                    android:text="Weaknesses:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView3"/>
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:orientation="vertical">
+                <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textView8"/>
+            </TableRow>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView
+                    android:text="Likes:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView4"/>
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:orientation="vertical">
+                <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textView9"/>
+            </TableRow>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView
+                    android:text="Dislikes:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView5"/>
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:orientation="vertical">
+                <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textView10"/>
+            </TableRow>
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
